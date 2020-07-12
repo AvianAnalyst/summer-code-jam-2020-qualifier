@@ -24,6 +24,9 @@ from dataclasses import dataclass, field
 class ArticleField:
     """The `ArticleField` class for the Advanced Requirements."""
 
+    def __init__(self, field_type: typing.Type[typing.Any]):
+        pass
+
 
 @dataclass
 class Article:
